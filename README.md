@@ -8,6 +8,15 @@ http://spark.apache.org/downloads.html
 
 
 
+### The data we are using for LogisticRegression is the data from a music ad research and is in LIBSVM txt data format:
+
+In this research study, the target is wether user click on the music ad. Feature is how long user listens to music in specific time of the day and if they used a cell phone.
+
+        Target feature_index(unique):weight feature_index(morning time):weight feature_index(afternoon time):weight feature_index(evening time):weight feature_index(night time):weight feature_index(use cell phone):weight
+
+
+
+
 ### Before working with API
 
 1. Download data you want to train into your spark data directory.
